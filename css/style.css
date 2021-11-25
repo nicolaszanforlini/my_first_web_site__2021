@@ -3,8 +3,8 @@
 #logo_best_record{
   float:left;
   height:66px;
-  width: 80px;
-  border: 2px solid grey;
+  width: 66px;
+  border: 2px solid #4E4E4E;
 }
 .header {
   height: 70px;
@@ -158,3 +158,107 @@ body {
   display: flex;
 }
 /*end corp de la page artistes*/
+
+/*corp de la page contact*/
+#img_best_record_page_contact {
+  width: 200px;
+  height: 200px;
+  border: 2px solid grey;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+.logo_best_record_page_contact {
+  margin: 30px 0 30px 0;
+}
+.acces_coordonnees {
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+}
+.span_acces_coordonnees {
+  border: 2px solid grey;
+  display: flex;
+  margin: 0 auto;
+  background-color: #2934FF;
+}
+#carte_acces {
+  width: 470px;
+  height: 350px;
+  margin: 3px 3px 0 3px;
+}
+#img_contact {
+  width: 470px;
+  height: 350px;
+  margin: 3px 3px 0 0;
+  float: right;
+}
+.coordonnees {
+  color: white;
+  display: block;
+  text-align: center;
+}
+.coordonees_div {
+  color: white;
+  margin-left: 25px;
+  margin-right: 25px;
+}
+.coordonees_div H2 {
+  color: white;
+  text-align: center;
+  font-size: 25px;
+  margin-bottom: 38px;
+}
+.coordonees_div H4 {
+  color: white;
+  text-align: center;
+  font-size: 17px;
+  margin-bottom: 4px;
+}
+.coordonees_div a {
+  color: white;
+  text-align: center;
+  font-size: 17px;
+  margin-bottom: 4px;
+}
+.coordonees_div a:hover {
+  color: black;
+  text-align: center;
+  font-size: 17px;
+  margin-bottom: 4px;
+}
+/*end corp de la page contact*/
+
+/*corp page promotion*/
+.h1_page_promotion {
+  text-align: center;
+  color: white;
+  margin-top: 45px;
+  margin-bottom: 45px;
+  font-family: "Times New Roman", Times, serif;
+}
+.block_artiste_promo {
+  border: 2px solid grey;
+  display: flex;
+  font-family: "Times New Roman", Times, serif;
+}
+#img_art_promo {
+  width: 450px;
+  height: 600px;
+}
+.div_description_artiste_promo {
+  color: white;
+}
+.div_description_artiste_promo p {
+  text-align: left;
+  margin-left: 35px;
+  margin-right: 35px;
+  font-size: 18px;
+}
+.div_description_artiste_promo H2 {
+  text-align: center;
+  margin-bottom: 40px;
+  margin-top: 40px;
+  font-size: 40px;
+}
+/*end corp page promotion*/

@@ -92,23 +92,29 @@ body {
   margin-right: auto;
   width: 900px;
   height: 470px;
-  margin-bottom: 25px;
 }
 .para_presentation_best_record {
-  font-family: "Times New Roman", Times, serif;
+  font-family: "Times New Roman", serif;
   font-style: italic;
   color: white;
   text-align: center;
-  font-size: 30px;
+  font-size: 27px;
 }
+.presentation_start {
+  margin-top: 40px;
+  margin-bottom: 90px;
+}
+
 .presentation {
-  margin: 40px 150px 60px 150px;
+  margin: 0 150px 0 150px;
 }
 /*carrousel*/
 .slider {
   width: 900px;
   overflow: hidden;
   margin: auto;
+  border-radius: 25px;
+  border: 5px solid white;
 }
 .slides {
   width: calc(900px * 3);
@@ -177,7 +183,8 @@ body {
   display: flex;
 }
 .span_acces_coordonnees {
-  border: 2px solid grey;
+  border: 5px solid white;
+  border-radius: 15px;
   display: flex;
   margin: 0 auto;
   background-color: #2934FF;
@@ -185,13 +192,8 @@ body {
 #carte_acces {
   width: 470px;
   height: 350px;
-  margin: 3px 3px 0 3px;
-}
-#img_contact {
-  width: 470px;
-  height: 350px;
-  margin: 3px 3px 0 0;
-  float: right;
+  margin: 7px;
+  border-radius:10px;
 }
 .coordonnees {
   color: white;
@@ -227,6 +229,31 @@ body {
   font-size: 17px;
   margin-bottom: 4px;
 }
+/*formulaire.html*/
+.lbl label{
+  width: 70px;
+  display: block;
+}
+.lbl {
+  margin-top: 7px;
+}
+.formulaire {
+  margin: 7px;
+  color: white;
+  display: flex;
+}
+.btn-subtim-form-message {
+  width: 100px;
+  height: 27px;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 7px;
+  padding: 0;
+  display: inline-block;
+  text-align: center;
+}
+/*end formulaire*/
 /*end corp de la page contact*/
 
 /*corp page promotion*/
@@ -235,28 +262,39 @@ body {
   color: white;
   margin-top: 45px;
   margin-bottom: 45px;
-  font-family: "Times New Roman", Times, serif;
+  font-family: "Times New Roman", serif;
+}
+.encadr-block {
+  border: 8px solid white;
+  border-radius: 15px;
+  margin-left: 15px;
+  margin-right: 15px;
 }
 .block_artiste_promo {
-  border: 2px solid grey;
+  background-color: black;
+  border-radius: 15px;
   display: flex;
-  font-family: "Times New Roman", Times, serif;
+  font-family: "Times New Roman", serif;
 }
 #img_art_promo {
   width: 450px;
   height: 600px;
+  border-radius: 15px;
 }
 .div_description_artiste_promo {
   color: white;
 }
 .div_description_artiste_promo p {
-  text-align: left;
+  text-align: center;
   margin-left: 35px;
   margin-right: 35px;
   font-size: 18px;
+  font-style: italic;
+
 }
 .div_description_artiste_promo H2 {
   text-align: center;
+  font-weight: normal;
   margin-bottom: 40px;
   margin-top: 40px;
   font-size: 40px;
